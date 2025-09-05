@@ -1,0 +1,41 @@
+# Dependências
+# Esta pasta é muito pesada e pode ser recriada com `npm install`.
+/node_modules
+
+# Arquivos de Build
+# Pasta gerada automaticamente quando o projeto é "compilado" para produção.
+/dist
+/dist-ssr
+
+# Variáveis de Ambiente (SECRETO!)
+# NUNCA envie este arquivo! Ele contém sua chave secreta da API.
+.env
+.env.*
+*.local
+
+# Ambiente de Desenvolvimento e Editores
+# Arquivos específicos da sua máquina e do seu editor de código.
+.vscode/
+!.vscode/extensions.json
+.idea/
+.idx/
+
+# Logs
+# Arquivos de log temporários.
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Arquivos de Sistema Operacional
+.DS_Store
+
+# Outros arquivos de editor (do seu arquivo original)
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
